@@ -1,0 +1,15 @@
+ .container {
+  list-style: none;
+  margin: 2em;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100vw;
+}
+
+/* .container li {
+  border: 1px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+
+} */ 

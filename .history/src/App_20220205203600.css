@@ -1,0 +1,22 @@
+.container {
+  list-style: none;
+  margin: 2em;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.container li {
+  border: 1px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.container .heading {
+  margin-top: auto;
+  border-top: 1px;
+  padding: 10px;
+  /* text-align: center; */
+}
+
